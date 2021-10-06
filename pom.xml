@@ -111,11 +111,17 @@
     </build>
 <profiles>
         <profile>
-            <id>test</id>
+            <id>open</id>
             <properties>
                 <gateway.url>https://internetbankmb.open.ru</gateway.url>
             </properties>
         </profile>
+    <profile>
+        <id>easy</id>
+        <properties>
+            <gateway.url>https://it.easyum.ru</gateway.url>
+        </properties>
+    </profile>
     </profiles>
 
 </project>
