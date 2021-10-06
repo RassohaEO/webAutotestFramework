@@ -10,6 +10,5 @@ public class ExampleTest extends BaseTest
         app.loginPage.open();
         app.loginPage.login("mail", "test123");
 
-
     }
 }
