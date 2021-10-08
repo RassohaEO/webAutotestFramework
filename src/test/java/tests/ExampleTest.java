@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 
 
-public class ExampleTest extends BaseTest
+public class  ExampleTest extends BaseTest
 {
     @Test
     public void loginViaEmail() {
