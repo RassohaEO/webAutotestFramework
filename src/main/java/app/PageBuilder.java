@@ -12,9 +12,13 @@ public class PageBuilder {
     }public static FreeEvents buildFreeEvents() {
         return new FreeEvents("/events");
     }
+    public static Contacts buildContacts() {return new Contacts("/contact");}
 
 
 //    https://it.easyum.ru/it-courses/
 //    https://it.easyum.ru
 // https://it.easyum.ru/events/
+//    https://it.easyum.ru//
+//    https://it.easyum.ru/contact/
+
 }
