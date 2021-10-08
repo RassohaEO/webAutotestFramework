@@ -13,9 +13,10 @@ public class PageBuilder {
         return new FreeEvents("/events");
     }
     public static FindTheJob buildFindTheJob() {
-        return new ITCourse("/employment");
+        return new FindTheJob("/employment");
     }
     public static Contacts buildContacts() {return new Contacts("/contact");}
+    public static MainPage buildMainPage() {return new MainPage("");}
 
 
 //    https://it.easyum.ru/it-courses/

@@ -9,6 +9,7 @@ public class App {
     public FindTheJob findTheJob;
     public FreeEvents freeEvents;
     public Contacts contacts;
+    public MainPage mainPage;
 
     public App() {
         loginPage = PageBuilder.buildLoginPage();
@@ -16,5 +17,6 @@ public class App {
         findTheJob = PageBuilder.buildFindTheJob();
         freeEvents = PageBuilder.buildFreeEvents();
         contacts = PageBuilder.buildContacts();
+        mainPage = PageBuilder.buildMainPage();
     }
 }
