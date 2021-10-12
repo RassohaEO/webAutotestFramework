@@ -122,6 +122,12 @@
             <gateway.url>https://it.easyum.ru</gateway.url>
         </properties>
     </profile>
+    <profile>
+        <id>booking</id>
+        <properties>
+            <gateway.url>https://www.booking.com/</gateway.url>
+        </properties>
+    </profile>
     </profiles>
 
 </project>

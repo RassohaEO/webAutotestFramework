@@ -1,5 +1,6 @@
 package app;
 
+import app.bookingPages.*;
 import app.pages.*;
 
 public class App {
@@ -10,6 +11,7 @@ public class App {
     public FreeEvents freeEvents;
     public Contacts contacts;
     public MainPage mainPage;
+    public BookMainPage bookMainPage;
 
     public App() {
         loginPage = PageBuilder.buildLoginPage();
@@ -18,5 +20,6 @@ public class App {
         freeEvents = PageBuilder.buildFreeEvents();
         contacts = PageBuilder.buildContacts();
         mainPage = PageBuilder.buildMainPage();
+        bookMainPage = PageBuilder.buildBookMainPage();
     }
 }

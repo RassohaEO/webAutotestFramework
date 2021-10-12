@@ -1,5 +1,6 @@
 package app;
 
+import app.bookingPages.*;
 import app.pages.*;
 
 public class PageBuilder {
@@ -17,13 +18,6 @@ public class PageBuilder {
     }
     public static Contacts buildContacts() {return new Contacts("/contact");}
     public static MainPage buildMainPage() {return new MainPage("");}
-
-
-//    https://it.easyum.ru/it-courses/
-//    https://it.easyum.ru
-    // https://it.easyum.ru/employment/
-// https://it.easyum.ru/events/
-//    https://it.easyum.ru//
-//    https://it.easyum.ru/contact/
+    public static BookMainPage buildBookMainPage() {return new BookMainPage("");}
 
 }
