@@ -23,4 +23,5 @@ public class MainPage extends BasePage{
     public SelenideElement sendButton = $(byXpath("(//input[@type='submit'])[2]"));
     public SelenideElement emailField = $(byXpath("(//input[@type='email'])[2]"));
 
+
 }
