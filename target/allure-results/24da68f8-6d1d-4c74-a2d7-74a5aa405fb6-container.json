@@ -1,0 +1,1 @@
+{"uuid":"24da68f8-6d1d-4c74-a2d7-74a5aa405fb6","name":"webAutotestFramework","children":["dac65cf1-9a73-4924-b8f3-0355759743ee"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1635509264988,"stop":1635509265130}],"afters":[],"links":[],"start":1635509264964,"stop":1635509279186}
